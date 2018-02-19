@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  body {
+    background: #e6ecf0;
+  }
+  a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+  .container {
+    font-size: 1.6rem;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+  }
+  .container .plan {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 6px -6px black;
+    border: 1px solid #999;
+    background: rgba(255, 255, 255, 0.4);
+  }
+  .container .plan * {
+    flex: 1 1 100%;
+  }
+  .container .plan--1 {
+    color: #111;
+  }
+  .container .plan--2 {
+    font-weight: bold;
+  }
+  .container .plan--3 {
+    color: #333;
+  }
+  .container .plan__title {
+    text-transform: uppercase;
+    color: white;
+    background: #03cbba;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    text-shadow: 0.3rem 0.3rem 0 rgba(0, 0, 0, 0.2);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 2rem;
+  }
+  .container .plan__p {
+    padding: 2rem;
+  }
+  .container .plan__features {
+    margin: 0;
+    padding: 2rem;
+    list-style: none;
+  }
+  .container .plan__features li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+  }
+  .container .plan__price {
+    font-size: 50px;
+    font-family: serif;
+    margin: 1rem 0;
+  }
+  .container .plan__cta {
+    text-decoration: none;
+    background: #fb5487;
+    padding: 1rem;
+    color: black;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+  }
+  
